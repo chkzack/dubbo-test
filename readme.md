@@ -9,11 +9,9 @@
     curator 4.x.x版本可同时支持 zookeeper 3.5 和 3.4 版本
     但如果使用 zookeeper 3.4 版本 curator recipes 的maven依赖中需要去除zookeeper的依赖包
     
-    ```xml
     <exclusions>
         <exclusion>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
         </exclusion>
     </exclusions>
-    ```

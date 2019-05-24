@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfd48206-19f0-4f85-9b62-f9d8752a97ff" name="Default Changelist" comment="修改注册中心为zookeeper，并添加curator作为zookeeper连接客户端">
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/mine/provider/CuratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/mine/provider/CuratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/dubbo-demo-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/dubbo-demo-consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/META-INF/spring/dubbo-demo-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/META-INF/spring/dubbo-demo-consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/mine/consumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/mine/consumer/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/target/classes/com/mine/testinterface/TestDubboInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface/target/classes/com/mine/testinterface/TestDubboInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/mine/provider/TestDubboInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/mine/provider/TestDubboInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/dubbo-demo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/dubbo-demo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/META-INF/spring/dubbo-demo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/META-INF/spring/dubbo-demo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/mine/provider/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/mine/provider/Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/mine/provider/TestDubboInterfaceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/mine/provider/TestDubboInterfaceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="bfd48206-19f0-4f85-9b62-f9d8752a97ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/interface/target/" />
@@ -87,7 +72,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/mine/provider/CuratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="475">
               <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -436,7 +421,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558575129085</updated>
       <workItem from="1558575138041" duration="19432000" />
-      <workItem from="1558658361664" duration="4679000" />
+      <workItem from="1558658361664" duration="5237000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo demo test">
       <created>1558589580718</created>
@@ -452,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558590448221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改lambda表达式">
+      <created>1558666078199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558666078199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24111000" />
+    <option name="totallyTimeSpent" value="24669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -480,9 +472,9 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3308026" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.3308026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -541,7 +533,8 @@
     <MESSAGE value="dubbo demo test" />
     <MESSAGE value="新增readme文件" />
     <MESSAGE value="修改注册中心为zookeeper，并添加curator作为zookeeper连接客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改注册中心为zookeeper，并添加curator作为zookeeper连接客户端" />
+    <MESSAGE value="修改lambda表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改lambda表达式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
@@ -678,7 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/mine/provider/CuratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="475">
           <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
