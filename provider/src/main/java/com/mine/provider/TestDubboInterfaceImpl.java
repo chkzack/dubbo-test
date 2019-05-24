@@ -17,6 +17,7 @@ public class TestDubboInterfaceImpl implements TestDubboInterface {
      * @author chenh
      * @date 2019/5/23 11:12
      */
+    @Override
     public String hello(String name){
         return "Hello," + name;
     }
