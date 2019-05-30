@@ -3,7 +3,7 @@
     
     修改  使用zookeeper作为注册中心进行测试, 使用curator做为zookeeper的连接客户端
     
-#### 记一次调试问题
+#### 记一次zookeeper注册中心调试问题
 
     docker 启动 zookeeper:3.5
     curator 4.x.x版本可同时支持 zookeeper 3.5 和 3.4 版本
@@ -15,3 +15,6 @@
             <artifactId>zookeeper</artifactId>
         </exclusion>
     </exclusions>
+
+#### redis
+    新增redis PUB/SUB 发布订阅模式的测试

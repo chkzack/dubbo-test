@@ -1,5 +1,6 @@
 package com.mine.consumer;
 
+import com.mine.testfactory.Vehicle;
 import com.mine.testinterface.TestDubboInterface;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @version 0.1
  * @date 2019/5/23
  */
-public class Consumer {
+public class DubboConsumer {
 
     /**
      * 测试dubbo consumer主方法
@@ -25,5 +26,12 @@ public class Consumer {
         TestDubboInterface bean = (TestDubboInterface)context.getBean("demoService");
         String greetings = bean.hello("zack");
         System.out.println(greetings);
+
+        Vehicle car = bean.build("car");
+        car.sayHello();
+
+        Vehicle bicycle = bean.build("bicycle");
+        bicycle.sayHello();
+
     }
 }

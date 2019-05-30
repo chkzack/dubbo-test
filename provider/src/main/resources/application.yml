@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+logging:
+  level: error
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss.SSS

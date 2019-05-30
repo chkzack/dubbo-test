@@ -13,7 +13,7 @@
     <!-- use dubbo protocol to export service on port 20880 -->
     <dubbo:protocol name="dubbo" port="20880"/>
     <!-- service implementation, as same as regular local bean -->
-    <bean id="demoService" class="com.mine.provider.TestDubboInterfaceImpl"/>
+    <bean id="demoService" class="com.mine.service.TestDubboInterfaceImpl"/>
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="com.mine.testinterface.TestDubboInterface" ref="demoService"/>
 </beans>
