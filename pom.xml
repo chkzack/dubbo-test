@@ -17,12 +17,22 @@
         <spring.version>5.1.5.RELEASE</spring.version>
         <curator.version>4.0.1</curator.version>
         <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
+        <junit.version>5.4.2</junit.version>
+        <lettuce.version>5.1.6.RELEASE</lettuce.version>
     </properties>
+
+    <!-- Inherit defaults from Spring Boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+    </parent>
 
     <modules>
         <module>interface</module>
         <module>provider</module>
         <module>consumer</module>
+        <module>redistest</module>
     </modules>
 
     <dependencies>
@@ -30,11 +40,6 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
             <version>${dubbo.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
@@ -47,10 +52,21 @@
             <version>${curator.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j-log4j12.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
+            <version>${lettuce.version}</version>
         </dependency>
 
     </dependencies>
