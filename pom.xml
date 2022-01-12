@@ -13,7 +13,7 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <dubbo.version>2.7.1</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <spring.version>5.1.5.RELEASE</spring.version>
         <curator.version>4.0.1</curator.version>
         <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
